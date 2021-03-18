@@ -1,0 +1,8 @@
+FROM mysql:latest
+
+ENV MYSQL_ROOT_PASSWORD hardpass1
+ENV MYSQL_USER root
+ENV MYSQL_PASSWORD hardpass1
+ENV MYSQL_DATABASE aircompany
+
+#COPY ./projectname-users-script.sql /docker-entrypoint-initdb.d/
